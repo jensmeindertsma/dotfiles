@@ -1,0 +1,23 @@
+[init]
+	defaultBranch = main
+
+[user]
+	name = Jens Meindertsma
+	email = mail@jensmeindertsma.com
+	signingkey = 30CDC97690D4457B
+
+[commit]
+	gpgSign = true
+
+[tag]
+	gpgSign = true
+
+[push]
+	autoSetupRemote = true
+	followTags = true
+
+[alias]
+	setup = !git commit --allow-empty -m 'Initial commit' && git push
+
+[gpg]
+	program = /opt/homebrew/bin/gpg

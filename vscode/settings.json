@@ -1,0 +1,9 @@
+{
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "git.confirmSync": false
+}
