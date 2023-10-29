@@ -1,9 +1,31 @@
 {
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
-    "workbench.startupEditor": "none",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-    "git.confirmSync": false
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "git.confirmSync": false,
+  "rust-analyzer.check.command": "clippy",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Default Light Modern",
+  "editor.codeLens": false,
+  "explorer.confirmDragAndDrop": false
 }
