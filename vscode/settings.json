@@ -25,7 +25,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Default Light Modern",
   "editor.codeLens": false,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro Darker"
 }

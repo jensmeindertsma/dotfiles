@@ -22,6 +22,10 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 ## Aliases
 alias mit="license-generator mit --author 'Jens Meindertsma' --output LICENSE.md"
 
+# Homebrew overrides
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
 # pnpm
 export PNPM_HOME="/Users/jensmeindertsma/Library/pnpm"
 case ":$PATH:" in
@@ -29,7 +33,3 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-
-# Homebrew overrides
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
