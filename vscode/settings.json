@@ -1,39 +1,60 @@
 {
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "workbench.startupEditor": "none",
-  "editor.fontSize": 15,
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  "git.confirmSync": false,
-  "rust-analyzer.check.command": "clippy",
-  "editor.inlayHints.enabled": "offUnlessPressed",
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.confirmDelete": false,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "[typescriptreact]": {
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.autoDetectColorScheme": true,
-  "editor.codeLens": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.minimap.enabled": false,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "One Dark Pro Darker"
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.codeLens": false,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.procMacro.ignored": {
+    "leptos_macro": [
+      // optional:
+      // "component",
+      "server"
+    ]
+  },
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.layoutControl.enabled": false,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.startupEditor": "none",
+  "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
+  "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+  "rust-analyzer.inlayHints.maxLength": null
 }
