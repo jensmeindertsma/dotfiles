@@ -4,7 +4,7 @@
 [user]
 	name = Jens Meindertsma
 	email = mail@jensmeindertsma.com
-	signingkey = BE1799DEEF34555D
+	signingkey = A5225E7C5CACEC60
 
 [commit]
 	gpgSign = true
